@@ -5,7 +5,7 @@ namespace Variable
     {
         static void Main(string[] args)
         {
-        Console.WriteLine("Input1 numbers separated by commas:");
+        Console.WriteLine("Enter numbers separated by commas:");
         string input = Console.ReadLine();
         char[] divide = { ',', ' ' };
         string[] segments = input.Split(divide);
